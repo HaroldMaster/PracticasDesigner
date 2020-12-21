@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEMS_919",
+			"isContextEntity": null,
+			"moduleId": "MMBYP",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"MMBYP": {
+		"LBL": {
+			"LBL_MMBYP_APELLIDNE_44881": "Apellido cliente",
+			"LBL_MMBYP_APELLIDOO_45395": "Apellido",
+			"LBL_MMBYP_CEDULACTT_49436": "Cedula cliente",
+			"LBL_MMBYP_CEDULAHZO_67768": "Cedula",
+			"LBL_MMBYP_CLIENTESS_99126": "Clientes",
+			"LBL_MMBYP_GUARDARYE_89202": "Guardar",
+			"LBL_MMBYP_NACIONADL_88612": "Nacionalidad",
+			"LBL_MMBYP_NOMBRECEL_30717": "Nombre cliente",
+			"LBL_MMBYP_NOMBREKAG_78889": "Nombre",
+			"LBL_MMBYP_REGISTRAO_82079": "Registrar personas",
+			"LBL_MMBYP_SEXOXBXEH_68329": "Sexo",
+			"LBL_MMBYP_TELEFONCL_58737": "Telefono cliente",
+			"LBL_MMBYP_TELEFONOO_72760": "Telefono"
+		},
+		"MSG": {
+		}
+	}
+}

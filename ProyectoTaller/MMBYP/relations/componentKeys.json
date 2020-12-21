@@ -1,0 +1,38 @@
+{
+	"Entities": {
+		"EN_CLIENTEMS_919": {
+			"name": "Cliente"
+		},
+		"EN_PERSONAIW_496": {
+			"name": "Persona"
+		}
+	},
+	"SSMMJ": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMBYPATLQWWEX_983": {
+				"name": "formConsultarClientes"
+			},
+			"T_MMBYPDIPFHUZQ_840": {
+				"name": "formCliente"
+			},
+			"T_MMBYPGZXHASSJ_154": {
+				"name": "FormularioConsultaPersonas"
+			},
+			"T_MMBYPTPEGLZGS_640": {
+				"name": "formRegistro"
+			}
+		},
+		"Queries": {
+			"Q_CLIEETNN_US41": {
+				"name": "ClienteQuery"
+			},
+			"Q_PERSONOA_JM48": {
+				"name": "PersonaQuery"
+			}
+		},
+		"SubForms": {
+		}
+	}
+}

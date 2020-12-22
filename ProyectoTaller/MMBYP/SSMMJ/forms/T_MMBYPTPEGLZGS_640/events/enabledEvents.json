@@ -1,6 +1,20 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "CM_TMMBYPTP_06P",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "CM_TMMBYPTP_YGM",
 		"controlName": "",
 		"controlType": "",
@@ -12,5 +26,19 @@
 		],
 		"entityName": "",
 		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "estadoCivil",
+		"controlId": "VA_ESTADOCIVILTYTS_605867",
+		"controlName": "estadoCivil",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
 	}
 ]

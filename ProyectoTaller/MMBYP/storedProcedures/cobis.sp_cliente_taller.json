@@ -99,11 +99,16 @@
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_nacionalidad"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_id"
 			}
 		],
 		"queries": [
 			{
-				"_idQuery": "8b8a6fb3-02f3-482e-a6cc-eb31978c6da5",
+				"_idQuery": "90b9941a-a91e-43ac-9a13-1af74135c7bc",
 				"columns": [
 					"{0}",
 					"{1}",

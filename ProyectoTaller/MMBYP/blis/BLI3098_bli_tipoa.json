@@ -12,7 +12,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "C"
+			"value": "A"
 		},
 		{
 			"attributeId": "",
@@ -24,92 +24,95 @@
 			"name": "@t_trn",
 			"type": "CONSTANT",
 			"value": "2515"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_estado",
+			"type": "CUSTOM",
+			"value": "estado"
 		}
 	],
-	"name": "BLI_Consultar_Persona",
+	"name": "BLI_TipoA",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI2686_bli_consultar_persona",
-	"patternName": "BLI_Consultar_Persona",
+	"patternId": "BLI3098_bli_tipoa",
+	"patternName": "BLI_TipoA",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "ea53e2b4-0ac5-4dfb-84dd-05002bcd6205",
+			"_idQuery": "b68d4ab5-6751-4879-be0a-bee7086bd4b3",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 1,
-			"queryName": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono,\r\n              \"sexo\"=pe_sexo,\r\n              \"estado civil\"=pe_estado_civil,\r\n              \"nombre conyugue\"=pe_nombre_conyugue,\r\n              \"apellido conyugue\"=pe_apellido_conyugue\r\n              FROM"
+			"numberQuery": 2,
+			"queryName": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono,\r\n              \"estado\"=pe_estado,\r\n              \"Tipo\"=pe_tipo,\r\n              \"fechaI\"=pe_fecha\r\n              FROM"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "ea53e2b4-0ac5-4dfb-84dd-05002bcd6205",
+			"_idQuery": "b68d4ab5-6751-4879-be0a-bee7086bd4b3",
 			"columns": [
 				{
-					"attributeId": "AT39_IDPERSNN496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT97_IDPROSTO681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
 					"name": "id",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT36_NOMBREGT496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT53_NOMBREOY681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
 					"name": "nombre",
 					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT14_APELLIDD496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT88_APELLIDD681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
 					"name": "apellido",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT31_TELEFOON496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT65_TELEFONN681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
 					"name": "telefono",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT21_SEXOTWHH496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT39_ESTADOET681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
-					"name": "sexo",
+					"name": "estado",
 					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT44_ESTADOIC496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT67_TIPOTTNC681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
-					"name": "estado civil",
+					"name": "Tipo",
 					"position": 6,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT45_NOMBREGY496",
-					"entityId": "EN_PERSONAIW_496",
+					"attributeId": "AT18_FECHARRV681",
+					"entityId": "EN_PROSPECTT_681",
 					"format": "",
-					"name": "nombre conyugue",
+					"name": "fechaI",
 					"position": 7,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT27_APELLIOO496",
-					"entityId": "EN_PERSONAIW_496",
-					"format": "",
-					"name": "apellido conyugue",
-					"position": 8,
 					"type": "ATTRIBUTE"
 				}
 			],
@@ -119,12 +122,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_PERSONAIW_496",
+			"entityId": "EN_PROSPECTT_681",
 			"module": {
 				"moduleId": "MMBYP",
 				"moduleName": "Main"
 			},
-			"name": "Persona"
+			"name": "Prospecto"
 		}
 	],
 	"serverName": "CENTRAL",

@@ -13,15 +13,15 @@
 	"id": {
 		"moduleId": "MMBYP",
 		"subModuleId": "SSMMJ",
-		"taskId": "T_MMBYPGZXHASSJ_154",
+		"taskId": "T_MMBYPDDQJXYOI_564",
 		"version": "1.0.0"
 	},
 	"isCustomized": false,
 	"isImported": false,
-	"mainViewContainerId": "VC_PERSONASUX_407154",
+	"mainViewContainerId": "VC_PROSPECTOO_644564",
 	"modeEnabled": 4095,
 	"name": {
-		"$ref": "../../../../MMBYP/relations/componentKeys.json#/SSMMJ/Forms/T_MMBYPGZXHASSJ_154/name"
+		"$ref": "../../../../MMBYP/relations/componentKeys.json#/SSMMJ/Forms/T_MMBYPDDQJXYOI_564/name"
 	},
 	"setFocus": false,
 	"tempSaveStr": "F",
@@ -40,13 +40,13 @@
 			"id": {
 				"moduleId": "MMBYP",
 				"subModuleId": "SSMMJ",
-				"taskId": "T_MMBYPGZXHASSJ_154",
+				"taskId": "T_MMBYPDDQJXYOI_564",
 				"taskVersion": "1.0.0",
-				"viewContainerId": "VC_PERSONASUX_407154"
+				"viewContainerId": "VC_PROSPECTOO_644564"
 			},
 			"isCustomized": false,
 			"layoutType": "Group",
-			"name": "FormularioConsultaPersonas",
+			"name": "formProspecto",
 			"options": 0,
 			"responsiveLayouts": null,
 			"responsivity": false,
@@ -56,100 +56,23 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
-						"columnsNum": 1,
+						"columnsNum": 3,
 						"componentStyle": null,
 						"customEvents": [
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#"
+							"$ref": "../../../../MMBYP/entities/EN_FILTROBUD_962.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_PERSONASSS_366207",
+						"groupId": "G_PROSPECTOO_184532",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1656",
+						"name": "Group1235",
 						"order": 1,
 						"orientation": "V",
-						"queryView": {
-							"actionDesign": "Button",
-							"actions": [
-								"Create",
-								"Update"
-							],
-							"allowPaging": true,
-							"allowPagingStr": "T",
-							"allowSorting": false,
-							"allowSortingStr": "F",
-							"autoSync": false,
-							"componentStyle": null,
-							"confirmRowDeletion": false,
-							"confirmRowDeletionStr": "F",
-							"customEvents": [
-							],
-							"customizationLayer": 0,
-							"customizationLayerDescription": "ECU",
-							"customUrlDialog": null,
-							"deleteCommandEnabled": false,
-							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": "LBL_MMBYP_REGISTRAO_82079",
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
-							"editMode": "3",
-							"entityName": {
-								"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/name"
-							},
-							"hasDetail": false,
-							"hasDetailString": "F",
-							"height": null,
-							"includeQueryMembers": [
-								"AT36_NOMBREGT496",
-								"AT31_TELEFOON496",
-								"AT39_IDPERSNN496",
-								"AT14_APELLIDD496",
-								"AT21_SEXOTWHH496",
-								"AT44_ESTADOIC496",
-								"AT45_NOMBREGY496",
-								"AT27_APELLIOO496"
-							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
-							"isCustomized": false,
-							"modalSize": "md",
-							"modeSelection": "None",
-							"moduleIdDialog": "MMBYP",
-							"multiSelectEnabledStr": "F",
-							"name": "QV_DC48_NRT63",
-							"options": 0,
-							"pageSize": 10,
-							"query": {
-								"$ref": "../../../../MMBYP/SSMMJ/queries/Q_PERSONOA_JM48.json#"
-							},
-							"queryId": "Q_PERSONOA_JM48",
-							"queryVersion": "1.0.0",
-							"queryViewCustomActions": [
-							],
-							"queryViewId": "QV_DC48_NRT63",
-							"queryViewType": "Grid",
-							"rowCommandAppearance": 0,
-							"style": null,
-							"subModuleIdDialog": "SSMMJ",
-							"taskIdDialog": "T_MMBYPTPEGLZGS_640",
-							"taskVersionDialog": "1.0.0",
-							"typeFormDialog": "forms",
-							"userControl": {
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"description": "Designer Grid",
-								"name": "Designer Grid",
-								"type": "I",
-								"userControlId": "Grid"
-							},
-							"viewContainerIdDialog": "VC_REGISTROZD_652640"
-						},
-						"queryViewId": "QV_DC48_NRT63",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
@@ -159,7 +82,387 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT31_TELEFOON496"
+									"$ref": "../../../../MMBYP/entities/EN_FILTROBUD_962.json#/attributes/AT42_FILTROHQ962"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_ESTADOWNZ_97226"
+									},
+									"labelId": "LBL_MMBYP_ESTADOWNZ_97226",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "filtro",
+								"options": 0,
+								"order": 1,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_FILTROXYEKHDZXB_991532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_FILTROBUD_962.json#/attributes/AT20_TIPOIIOP962"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_TIPODUOES_88582"
+									},
+									"labelId": "LBL_MMBYP_TIPODUOES_88582",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "tipo",
+								"options": 0,
+								"order": 2,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TIPOQBQUHSTEPGT_999532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": "EN_PROSPECTT_681",
+								"imageId": "fa fa-search",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "VA_VAIMAGEBUTTONNN_750532",
+								"options": 0,
+								"order": 3,
+								"queryId": "Q_PROSTETE_BI16",
+								"queryModule": "MMBYP",
+								"queryVersion": "1.0.0",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "ImageButton"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_750532",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_PROSPECTTT_610532",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2997",
+						"order": 2,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+								"Create,Update,Delete"
+							],
+							"allowPaging": false,
+							"allowPagingStr": "F",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": true,
+							"deleteCommandEnabledStr": "T",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT53_NOMBREOY681",
+								"AT65_TELEFONN681",
+								"AT88_APELLIDD681",
+								"AT97_IDPROSTO681",
+								"AT39_ESTADOET681",
+								"AT67_TIPOTTNC681",
+								"AT18_FECHARRV681"
+							],
+							"insertCommandEnabled": true,
+							"insertCommandEnabledStr": "T",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_UD16_VZU51",
+							"options": 0,
+							"pageSize": null,
+							"query": {
+								"$ref": "../../../../MMBYP/SSMMJ/queries/Q_PROSTETE_BI16.json#"
+							},
+							"queryId": "Q_PROSTETE_BI16",
+							"queryVersion": "1.0.0",
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_UD16_VZU51",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": "1.0.0",
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_UD16_VZU51",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT18_FECHARRV681"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": null,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "fecha",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "DateField"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_DATEFIELDAIYNNS_760532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT88_APELLIDD681"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXGPB_940532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT67_TIPOTTNC681"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "tipo",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXGZP_138532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT65_TELEFONN681"
 								},
 								"attributeValidations": [
 								],
@@ -188,7 +491,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXAFD_947207",
+								"visualAttributeId": "VA_TEXTINPUTBOXJKV_147532",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -196,229 +499,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT14_APELLIDD496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "apellido",
-								"options": 0,
-								"order": 4,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXCCY_531207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT21_SEXOTWHH496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "sexo",
-								"options": 0,
-								"order": 5,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXDPE_415207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT45_NOMBREGY496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "nombreConyugue",
-								"options": 0,
-								"order": 7,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXIEA_880207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT27_APELLIOO496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "apellidoConyugue",
-								"options": 0,
-								"order": 8,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXKKX_610207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT39_IDPERSNN496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "idPersona",
-								"options": 0,
-								"order": 3,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXSQO_978207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT44_ESTADOIC496"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "estadoCivil",
-								"options": 0,
-								"order": 6,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXSWU_170207",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT36_NOMBREGT496"
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT53_NOMBREOY681"
 								},
 								"attributeValidations": [
 								],
@@ -447,7 +528,81 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXVLV_157207",
+								"visualAttributeId": "VA_TEXTINPUTBOXMDM_407532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT97_IDPROSTO681"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "idProspecto",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXQNI_321532",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT39_ESTADOET681"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "estado",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXYWO_634532",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -456,7 +611,7 @@
 				],
 				"id": {
 					"version": "1.0.0",
-					"viewId": "VW_PERSONASTB_207"
+					"viewId": "VW_PROSPECTOO_532"
 				},
 				"metadataVersion": "7.2.0.2020",
 				"modules": [
@@ -464,7 +619,7 @@
 						"moduleId": "MMBYP"
 					}
 				],
-				"name": "View of FormularioConsultaPersonas"
+				"name": "View of formProspecto"
 			}
 		}
 	]

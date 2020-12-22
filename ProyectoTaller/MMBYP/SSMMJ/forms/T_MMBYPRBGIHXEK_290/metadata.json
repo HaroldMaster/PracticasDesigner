@@ -1,0 +1,36 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEMS_919",
+			"isContextEntity": null,
+			"moduleId": "MMBYP",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROBUD_962",
+			"isContextEntity": null,
+			"moduleId": "MMBYP",
+			"related": false
+		},
+		{
+			"entityId": "EN_PERSONAIW_496",
+			"isContextEntity": null,
+			"moduleId": "MMBYP",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "MMBYP",
+			"queryId": "Q_CLIEETNN_US41",
+			"related": false,
+			"subModuleId": "SSMMJ"
+		},
+		{
+			"moduleId": "MMBYP",
+			"queryId": "Q_PERSONOA_JM48",
+			"related": false,
+			"subModuleId": "SSMMJ"
+		}
+	]
+}

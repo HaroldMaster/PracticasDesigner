@@ -3,8 +3,14 @@
 		"EN_CLIENTEMS_919": {
 			"name": "Cliente"
 		},
+		"EN_FILTROBUD_962": {
+			"name": "FiltroBusquedaPersona"
+		},
 		"EN_PERSONAIW_496": {
 			"name": "Persona"
+		},
+		"EN_PROSPECTT_681": {
+			"name": "Prospecto"
 		}
 	},
 	"SSMMJ": {
@@ -14,11 +20,17 @@
 			"T_MMBYPATLQWWEX_983": {
 				"name": "formConsultarClientes"
 			},
+			"T_MMBYPDDQJXYOI_564": {
+				"name": "formProspecto"
+			},
 			"T_MMBYPDIPFHUZQ_840": {
 				"name": "formCliente"
 			},
 			"T_MMBYPGZXHASSJ_154": {
 				"name": "FormularioConsultaPersonas"
+			},
+			"T_MMBYPRBGIHXEK_290": {
+				"name": "formFiltro"
 			},
 			"T_MMBYPTPEGLZGS_640": {
 				"name": "formRegistro"
@@ -30,6 +42,9 @@
 			},
 			"Q_PERSONOA_JM48": {
 				"name": "PersonaQuery"
+			},
+			"Q_PROSTETE_BI16": {
+				"name": "ProspectoQuery"
 			}
 		},
 		"SubForms": {

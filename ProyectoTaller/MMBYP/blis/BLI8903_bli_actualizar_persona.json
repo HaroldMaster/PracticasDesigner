@@ -20,7 +20,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "I"
+			"value": "U"
 		},
 		{
 			"attributeId": "",
@@ -122,13 +122,13 @@
 			"value": ""
 		}
 	],
-	"name": "BLI_Insert_Persona",
+	"name": "BLI_Actualizar_Persona",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI7923_bli_insert_persona",
-	"patternName": "BLI_Insert_Persona",
+	"patternId": "BLI8903_bli_actualizar_persona",
+	"patternName": "BLI_Actualizar_Persona",
 	"patternType": "Bli",
 	"queries": [
 	],

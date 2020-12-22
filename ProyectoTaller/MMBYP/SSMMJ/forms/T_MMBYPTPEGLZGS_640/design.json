@@ -18,6 +18,72 @@
 						"eventId": 10,
 						"name": "ExecuteCommand"
 					},
+					"customEventId": "CECM_010CM_TMMBYPTP_06P_612",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI8903_bli_actualizar_persona",
+							"actionType": "BLI",
+							"controlId": "CM_TMMBYPTP_06P"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMBYPTP_06P"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_ACTUALIRR_93075"
+				},
+				"labelId": "LBL_MMBYP_ACTUALIRR_93075",
+				"moduleId": "MMBYP"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": 2,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
 					"customEventId": "CECM_010CM_TMMBYPTP_YGM_923",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",
@@ -33,7 +99,8 @@
 							"actionArgs": [
 							],
 							"actionId": "BLI7923_bli_insert_persona",
-							"actionType": "BLI"
+							"actionType": "BLI",
+							"controlId": "CM_TMMBYPTP_YGM"
 						}
 					],
 					"executionType": 7,
@@ -61,7 +128,7 @@
 			"name": "Command1",
 			"options": 0,
 			"order": 1,
-			"showInMode": 4095,
+			"showInMode": 1,
 			"userControl": {
 				"type": "A",
 				"userControlId": "Button"
@@ -147,6 +214,51 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT27_APELLIOO496"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_APELLIDYE_42433"
+									},
+									"labelId": "LBL_MMBYP_APELLIDYE_42433",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"name": "apellidoConyugue",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOCONYUUE_364867",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
 									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT14_APELLIDD496"
 								},
 								"attributeValidations": [
@@ -185,6 +297,133 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_APELLIDOJIIAWAE_577867",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT44_ESTADOIC496"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "cl_ecivil",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_ESTADOCIVILTYTS_605867_738",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_ESTADOCLI_49410"
+									},
+									"labelId": "LBL_MMBYP_ESTADOCLI_49410",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "estadoCivil",
+								"options": 0,
+								"order": 5,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_ESTADOCIVILTYTS_605867",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT45_NOMBREGY496"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_NOMBRECUE_44353"
+									},
+									"labelId": "LBL_MMBYP_NOMBRECUE_44353",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"name": "nombreConyugue",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBRECONYUGUUU_311867",
 								"width": null,
 								"widthComposite": "D"
 							},

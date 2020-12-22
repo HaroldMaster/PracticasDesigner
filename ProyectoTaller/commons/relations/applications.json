@@ -35,42 +35,50 @@
 		"forms": {
 			"MMBYP": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMBYP",
-					"moduleName": "Main",
 					"name": "formConsultarClientes",
 					"subModuleId": "SSMMJ",
-					"subModuleName": "Main",
 					"taskId": "T_MMBYPATLQWWEX_983",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMBYP",
-					"moduleName": "Main",
+					"name": "formProspecto",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMBYPDDQJXYOI_564",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMBYP",
 					"name": "formCliente",
 					"subModuleId": "SSMMJ",
-					"subModuleName": "Main",
 					"taskId": "T_MMBYPDIPFHUZQ_840",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMBYP",
-					"moduleName": "Main",
 					"name": "FormularioConsultaPersonas",
 					"subModuleId": "SSMMJ",
-					"subModuleName": "Main",
 					"taskId": "T_MMBYPGZXHASSJ_154",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMBYP",
-					"moduleName": "Main",
+					"name": "formFiltro",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMBYPRBGIHXEK_290",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMBYP",
 					"name": "formRegistro",
 					"subModuleId": "SSMMJ",
-					"subModuleName": "Main",
 					"taskId": "T_MMBYPTPEGLZGS_640",
 					"type": "Simple form"
 				}

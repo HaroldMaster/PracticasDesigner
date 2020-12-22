@@ -18,6 +18,71 @@
 						"eventId": 10,
 						"name": "ExecuteCommand"
 					},
+					"customEventId": "CECM_010CM_TMMBYPDI_5BM_648",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI3484_bli_actualizar_cliente",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMBYPDI_5BM"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_ACTUALIRR_93075"
+				},
+				"labelId": "LBL_MMBYP_ACTUALIRR_93075",
+				"moduleId": "MMBYP"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": null,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
 					"customEventId": "CECM_010CM_TMMBYPDI_FF4_861",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",
@@ -231,6 +296,51 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_CEDULASOMYGOKFV_710610",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMBYP/entities/EN_CLIENTEMS_919.json#/attributes/AT48_IDCLIEEE919"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMBYP/assets/languages/MMBYP.json#/MMBYP/LBL/LBL_MMBYP_IDCLIENEE_85251"
+									},
+									"labelId": "LBL_MMBYP_IDCLIENEE_85251",
+									"moduleId": "MMBYP"
+								},
+								"maxRecords": null,
+								"name": "idCliente",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 0,
+								"visualAttributeId": "VA_IDCLIENTECRTILE_711610",
 								"width": null,
 								"widthComposite": "D"
 							},

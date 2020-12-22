@@ -1,6 +1,20 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "CM_TMMBYPDI_5BM",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "CM_TMMBYPDI_FF4",
 		"controlName": "",
 		"controlType": "",

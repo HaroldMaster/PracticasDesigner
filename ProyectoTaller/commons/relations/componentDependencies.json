@@ -6,7 +6,15 @@
 			"labels": [
 			]
 		},
+		"EN_FILTROBUD_962": {
+			"labels": [
+			]
+		},
 		"EN_PERSONAIW_496": {
+			"labels": [
+			]
+		},
+		"EN_PROSPECTT_681": {
 			"labels": [
 			]
 		}
@@ -47,8 +55,53 @@
 			"subForms": [
 			]
 		},
+		"T_MMBYPDDQJXYOI_564": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROBUD_962": [
+					"AT20_TIPOIIOP962",
+					"AT42_FILTROHQ962"
+				],
+				"EN_PROSPECTT_681": [
+					"AT18_FECHARRV681",
+					"AT39_ESTADOET681",
+					"AT53_NOMBREOY681",
+					"AT65_TELEFONN681",
+					"AT67_TIPOTTNC681",
+					"AT88_APELLIDD681",
+					"AT97_IDPROSTO681"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMBYP_ESTADOWNZ_97226",
+				"LBL_MMBYP_TIPODUOES_88582"
+			],
+			"queries": {
+				"Q_PROSTETE_BI16": [
+					"",
+					"",
+					"QM_PROSTB1EEE156_04",
+					"QM_PROSTBETEI939_05",
+					"QM_PROSTE1IIT140_02",
+					"QM_PROSTEB6EI930_07",
+					"QM_PROSTEETET187_03",
+					"QM_PROSTETTEI640_01",
+					"QM_PROSTTE6B1663_06"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_MMBYPDIPFHUZQ_840": {
 			"blis": [
+				"BLI3484_bli_actualizar_cliente",
 				"BLI5853_bli_insert_cliente"
 			],
 			"entities": {
@@ -56,6 +109,7 @@
 					"AT26_TELEFONN919",
 					"AT40_CEDULACW919",
 					"AT47_APELLIOO919",
+					"AT48_IDCLIEEE919",
 					"AT51_NACIONAD919",
 					"AT86_NOMBRESC919"
 				]
@@ -67,9 +121,11 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMBYP_ACTUALIRR_93075",
 				"LBL_MMBYP_APELLIDNE_44881",
 				"LBL_MMBYP_CEDULACTT_49436",
 				"LBL_MMBYP_GUARDARYE_89202",
+				"LBL_MMBYP_IDCLIENEE_85251",
 				"LBL_MMBYP_NACIONADL_88612",
 				"LBL_MMBYP_NOMBRECEL_30717",
 				"LBL_MMBYP_TELEFONCL_58737"
@@ -86,9 +142,13 @@
 			"entities": {
 				"EN_PERSONAIW_496": [
 					"AT14_APELLIDD496",
+					"AT21_SEXOTWHH496",
+					"AT27_APELLIOO496",
 					"AT31_TELEFOON496",
 					"AT36_NOMBREGT496",
-					"AT39_IDPERSNN496"
+					"AT39_IDPERSNN496",
+					"AT44_ESTADOIC496",
+					"AT45_NOMBREGY496"
 				]
 			},
 			"externalEntities": {
@@ -101,8 +161,12 @@
 			],
 			"queries": {
 				"Q_PERSONOA_JM48": [
+					"QM_PERSO4MJ8M842_04",
 					"QM_PERSO88JAO511_03",
+					"QM_PERSO88N4O272_03",
 					"QM_PERSO8NMN4988_02",
+					"QM_PERSOMJOO8950_01",
+					"QM_PERSONA8MA764_02",
 					"QM_PERSONNJOA359_04",
 					"QM_PERSOO4MJA659_01"
 				]
@@ -110,16 +174,32 @@
 			"subForms": [
 			]
 		},
-		"T_MMBYPTPEGLZGS_640": {
+		"T_MMBYPRBGIHXEK_290": {
 			"blis": [
-				"BLI7923_bli_insert_persona"
+				"BLI2186_bli_consultar_cliente",
+				"BLI2686_bli_consultar_persona"
 			],
 			"entities": {
+				"EN_CLIENTEMS_919": [
+					"AT26_TELEFONN919",
+					"AT40_CEDULACW919",
+					"AT47_APELLIOO919",
+					"AT48_IDCLIEEE919",
+					"AT51_NACIONAD919",
+					"AT86_NOMBRESC919"
+				],
+				"EN_FILTROBUD_962": [
+					"AT42_FILTROHQ962"
+				],
 				"EN_PERSONAIW_496": [
 					"AT14_APELLIDD496",
 					"AT21_SEXOTWHH496",
+					"AT27_APELLIOO496",
 					"AT31_TELEFOON496",
-					"AT36_NOMBREGT496"
+					"AT36_NOMBREGT496",
+					"AT39_IDPERSNN496",
+					"AT44_ESTADOIC496",
+					"AT45_NOMBREGY496"
 				]
 			},
 			"externalEntities": {
@@ -129,8 +209,74 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMBYP_FILTROOQT_37389"
+			],
+			"queries": {
+				"Q_CLIEETNN_US41": [
+					"QM_CLIEE14N1S548_04",
+					"QM_CLIEE1USNT273_01",
+					"QM_CLIEENNTNN821_03",
+					"QM_CLIEES144U375_02",
+					"QM_CLIEESNUSS932_06",
+					"QM_CLIEEU4NUU301_05",
+					"QM_PERSO4MJ8M842_04",
+					"QM_PERSO88JAO511_03",
+					"QM_PERSO88N4O272_03",
+					"QM_PERSO8NMN4988_02",
+					"QM_PERSOMJOO8950_01",
+					"QM_PERSONA8MA764_02",
+					"QM_PERSONNJOA359_04",
+					"QM_PERSOO4MJA659_01"
+				],
+				"Q_PERSONOA_JM48": [
+					"QM_CLIEE14N1S548_04",
+					"QM_CLIEE1USNT273_01",
+					"QM_CLIEENNTNN821_03",
+					"QM_CLIEES144U375_02",
+					"QM_CLIEESNUSS932_06",
+					"QM_CLIEEU4NUU301_05",
+					"QM_PERSO4MJ8M842_04",
+					"QM_PERSO88JAO511_03",
+					"QM_PERSO88N4O272_03",
+					"QM_PERSO8NMN4988_02",
+					"QM_PERSOMJOO8950_01",
+					"QM_PERSONA8MA764_02",
+					"QM_PERSONNJOA359_04",
+					"QM_PERSOO4MJA659_01"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_MMBYPTPEGLZGS_640": {
+			"blis": [
+				"BLI7923_bli_insert_persona",
+				"BLI8903_bli_actualizar_persona"
+			],
+			"entities": {
+				"EN_PERSONAIW_496": [
+					"AT14_APELLIDD496",
+					"AT21_SEXOTWHH496",
+					"AT27_APELLIOO496",
+					"AT31_TELEFOON496",
+					"AT36_NOMBREGT496",
+					"AT44_ESTADOIC496",
+					"AT45_NOMBREGY496"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMBYP_ACTUALIRR_93075",
 				"LBL_MMBYP_APELLIDOO_45395",
+				"LBL_MMBYP_APELLIDYE_42433",
+				"LBL_MMBYP_ESTADOCLI_49410",
 				"LBL_MMBYP_GUARDARYE_89202",
+				"LBL_MMBYP_NOMBRECUE_44353",
 				"LBL_MMBYP_NOMBREKAG_78889",
 				"LBL_MMBYP_SEXOXBXEH_68329",
 				"LBL_MMBYP_TELEFONOO_72760"
@@ -147,6 +293,10 @@
 			]
 		},
 		"Q_PERSONOA_JM48": {
+			"labels": [
+			]
+		},
+		"Q_PROSTETE_BI16": {
 			"labels": [
 			]
 		}

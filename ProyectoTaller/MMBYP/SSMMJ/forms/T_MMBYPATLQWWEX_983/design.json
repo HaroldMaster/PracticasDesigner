@@ -76,13 +76,14 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
+								"Create",
+								"Update"
 							],
 							"allowPaging": true,
 							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -91,12 +92,12 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
-							"dialogTitleLabelId": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": "LBL_MMBYP_REGISTRLL_88049",
 							"editCommandEnabled": true,
 							"editCommandEnabledStr": "T",
-							"editMode": "0",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../MMBYP/entities/EN_CLIENTEMS_919.json#/name"
 							},
@@ -114,9 +115,9 @@
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "md",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "MMBYP",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_ZF41_UEL20",
 							"options": 0,
@@ -124,16 +125,18 @@
 							"query": {
 								"$ref": "../../../../MMBYP/SSMMJ/queries/Q_CLIEETNN_US41.json#"
 							},
+							"queryId": "Q_CLIEETNN_US41",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_ZF41_UEL20",
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "SSMMJ",
+							"taskIdDialog": "T_MMBYPDIPFHUZQ_840",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -142,7 +145,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_CLIENTEUGF_671840"
 						},
 						"queryViewId": "QV_ZF41_UEL20",
 						"responsiveLayouts": null,

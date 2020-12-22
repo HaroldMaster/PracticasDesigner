@@ -1,17 +1,11 @@
 {
 	"customEvents": [
 		{
-			"customEventId": "CEQY_130_Q_PERSONOA_JM48_291",
+			"customEventId": "CEQY_130_Q_PROSTETE_BI16_187",
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
 			"enabled": "T",
 			"eventActions": [
-				{
-					"actionArgs": [
-					],
-					"actionId": "BLI2686_bli_consultar_persona",
-					"actionType": "BLI"
-				},
 				{
 					"actionArgs": [
 					],
@@ -30,158 +24,101 @@
 	],
 	"customizationLayer": 0,
 	"customizationLayerDescription": "ECU",
-	"hasEvents": true,
 	"id": {
-		"queryId": "Q_PERSONOA_JM48",
+		"queryId": "Q_PROSTETE_BI16",
 		"version": "1.0.0"
 	},
 	"isAutomatic": false,
 	"isImported": false,
-	"mainEntityId": "EN_PERSONAIW_496",
+	"mainEntityId": "EN_PROSPECTT_681",
 	"mainEntityModule": "MMBYP",
 	"mainEntityName": {
-		"$ref": "../../../MMBYP/relations/componentKeys.json#/Entities/EN_PERSONAIW_496/name"
+		"$ref": "../../../MMBYP/relations/componentKeys.json#/Entities/EN_PROSPECTT_681/name"
 	},
 	"mainEntityVersion": "1.0.0",
 	"name": {
-		"$ref": "../../../MMBYP/relations/componentKeys.json#/SSMMJ/Queries/Q_PERSONOA_JM48/name"
+		"$ref": "../../../MMBYP/relations/componentKeys.json#/SSMMJ/Queries/Q_PROSTETE_BI16/name"
 	},
 	"queryMembers": [
 		{
-			"alias": "apellidoConyugue",
+			"alias": "idProspecto",
 			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT27_APELLIOO496"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 8,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_PERSO4MJ8M842_04",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "nombre",
-			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT36_NOMBREGT496"
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT97_IDPROSTO681"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
-			"order": 1,
+			"order": "3",
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_PERSO88JAO511_03",
+			"queryMemberId": "QM_PROSTB1EEE156_04",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
 			"whereStr": "F"
 		},
 		{
-			"alias": "nombreConyugue",
+			"alias": "estado",
 			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT45_NOMBREGY496"
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT39_ESTADOET681"
 			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
-			"order": 7,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_PERSO88N4O272_03",
+			"order": "4",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSTBETEI939_05",
 			"select": true,
 			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
+			"where": true,
+			"whereStr": "T"
 		},
 		{
 			"alias": "telefono",
 			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT31_TELEFOON496"
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT65_TELEFONN681"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
-			"order": 2,
+			"order": "1",
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_PERSO8NMN4988_02",
+			"queryMemberId": "QM_PROSTE1IIT140_02",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
 			"whereStr": "F"
 		},
 		{
-			"alias": "sexo",
+			"alias": "fecha",
 			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT21_SEXOTWHH496"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 5,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_PERSOMJOO8950_01",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "estadoCivil",
-			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT44_ESTADOIC496"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 6,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_PERSONA8MA764_02",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "idPersona",
-			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT39_IDPERSNN496"
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT18_FECHARRV681"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
-			"order": 3,
+			"order": "6",
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_PERSONNJOA359_04",
+			"queryMemberId": "QM_PROSTEB6EI930_07",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
@@ -190,18 +127,61 @@
 		{
 			"alias": "apellido",
 			"attribute": {
-				"$ref": "../../../MMBYP/entities/EN_PERSONAIW_496.json#/attributes/AT14_APELLIDD496"
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT88_APELLIDD681"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
-			"order": 4,
+			"order": "2",
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_PERSOO4MJA659_01",
+			"queryMemberId": "QM_PROSTEETET187_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT53_NOMBREOY681"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "0",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSTETTEI640_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipo",
+			"attribute": {
+				"$ref": "../../../MMBYP/entities/EN_PROSPECTT_681.json#/attributes/AT67_TIPOTTNC681"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "5",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSTTE6B1663_06",
 			"select": true,
 			"selectStr": "T",
 			"where": false,

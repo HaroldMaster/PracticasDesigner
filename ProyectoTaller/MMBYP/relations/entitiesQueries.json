@@ -12,5 +12,12 @@
 				"$ref": "../SSMMJ/queries/Q_PERSONOA_JM48.json#"
 			}
 		}
+	},
+	"EN_PROSPECTT_681": {
+		"queries": {
+			"Q_PROSTETE_BI16": {
+				"$ref": "../SSMMJ/queries/Q_PROSTETE_BI16.json#"
+			}
+		}
 	}
 }

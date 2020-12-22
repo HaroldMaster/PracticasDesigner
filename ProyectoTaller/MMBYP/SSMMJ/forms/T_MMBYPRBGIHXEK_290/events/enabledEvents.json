@@ -1,0 +1,48 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEETNN_US41",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMBYP/SSMMJ/queries/Q_CLIEETNN_US41.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_PERSONOA_JM48",
+		"controlName": "PersonaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMBYP/SSMMJ/queries/Q_PERSONOA_JM48.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_530366",
+		"controlName": "VA_VAIMAGEBUTTONNN_530366",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "FiltroBusquedaPersona",
+		"eventsType": "visualAttributeEventType"
+	}
+]

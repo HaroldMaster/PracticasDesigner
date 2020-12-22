@@ -37,6 +37,57 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTT_681",
+						"moduleId": "MMBYP",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3098_bli_tipoa",
+			"nameBli": "BLI_TipoA"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEMS_919",
+						"moduleId": "MMBYP",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3484_bli_actualizar_cliente",
+			"nameBli": "BLI_Actualizar_Cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTT_681",
+						"moduleId": "MMBYP",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4108_bli_tipob",
+			"nameBli": "BLI_TipoB"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTEMS_919",
 						"moduleId": "MMBYP",
@@ -67,6 +118,23 @@
 			},
 			"idBli": "BLI7923_bli_insert_persona",
 			"nameBli": "BLI_Insert_Persona"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAIW_496",
+						"moduleId": "MMBYP",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8903_bli_actualizar_persona",
+			"nameBli": "BLI_Actualizar_Persona"
 		}
 	]
 }

@@ -43,7 +43,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "MMBYP",
 					"name": "formProspecto",
 					"subModuleId": "SSMMJ",
@@ -67,7 +67,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "MMBYP",
 					"name": "formFiltro",
 					"subModuleId": "SSMMJ",
